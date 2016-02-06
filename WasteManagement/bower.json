@@ -1,0 +1,37 @@
+{
+  "name": "RemitaPaymentNotificationRecieverEngine",
+  "authors": [
+    "Chuka <cchinaka@gmail.com>"
+  ],
+  "description": "Remita Payment Notification Receiver Engine",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "remita",
+    "payment",
+    "notification",
+    "receiver",
+    "engine"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6",
+    "jquery-validation": "~1.14.0",
+    "bootstrap-duallistbox": "https://github.com/istvan-ujjmeszaros/bootstrap-duallistbox.git#~3.0.5",
+    "bootstrap-switch": "https://github.com/nostalgiaz/bootstrap-switch.git#~3.3.2",
+    "jvectormap": "git://github.com/bjornd/jvectormap.git#~2.0.4",
+    "typeahead.js-bootstrap3.less": "https://github.com/bassjobsen/typeahead.js-bootstrap-css.git#~1.2.1",
+    "typeahead.js": "~0.11.1",
+    "bloody-jquery-plugins": "https://github.com/phiggins42/bloody-jquery-plugins.git"
+  }
+}

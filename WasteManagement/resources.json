@@ -1,0 +1,90 @@
+{
+  "concat": {
+    "src": {
+      "landing": ["bower_components/jquery/dist/jquery.min.js",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js",
+        "bower_components/jquery.easing/jquery.easing.min.js",
+        "src/main/webapp/static/templates/js/classie.js",
+        "src/main/webapp/static/templates/js/cbpAnimatedHeader.js",
+        "src/main/webapp/static/templates/js/jqBootstrapValidation.js",
+  "src/main/webapp/static/templates/js/freelancer.js",
+        "src/main/webapp/static/custom/js/application-landing.js"
+      ],
+      "admin": ["bower_components/jquery/dist/jquery.min.js",
+        "src/main/webapp/static/templates/admin/script/jquery-migrate-1.2.1.min.js",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js",
+        "src/main/webapp/static/templates/admin/script/bootstrap-hover-dropdown.js",
+        "src/main/webapp/static/templates/admin/script/html5shiv.js",
+        "src/main/webapp/static/templates/admin/script/respond.min.js",
+        "src/main/webapp/static/templates/admin/script/jquery.metisMenu.js",
+        "src/main/webapp/static/templates/admin/script/jquery.slimscroll.js",
+        "src/main/webapp/static/templates/admin/script/custom.min.js",
+        "src/main/webapp/static/templates/admin/script/jquery.menu.js",
+        "src/main/webapp/static/templates/admin/script/pace.min.js",
+        "src/main/webapp/static/templates/admin/script/holder.js",
+        "src/main/webapp/static/templates/admin/script/responsive-tabs.js",
+        "src/main/webapp/static/templates/admin/script/main.js",
+        "bower_components/jquery-validation/dist/jquery.validate.min.js",
+        "bower_components/jquery-validation/dist/additional-methods.min.js",
+        "bower_components/bloody-jquery-plugins/pubsub.js",
+        "src/main/webapp/static/templates/js/hashtable.js",
+        "src/main/webapp/static/templates/js/jquery.numberformatter-1.2.3.js",
+        "src/main/webapp/static/templates/js/moneyutil.js",
+        "bower_components/bootstrap-switch/dist/js/bootstrap-switch.min.js",
+        "src/main/webapp/static/templates/js/jquery.plugin.min.js",
+        "src/main/webapp/static/templates/js/jquery.realperson.min.js",
+        "src/main/webapp/static/templates/js/jquery.timeago.js",
+        "src/main/webapp/static/templates/js/bootstrap-datepicker.js",
+        "src/main/webapp/static/templates/js/datatables_1.10.8.js",
+        "src/main/webapp/static/templates/js/datatables_bootstrap3_integration.js",
+        "src/main/webapp/static/templates/js/dataTables.bootstrap.js",
+        "src/main/webapp/static/templates/js/tabletools.js",
+        "src/main/webapp/static/templates/js/bootstrap.duallistbox.js",
+        "src/main/webapp/static/templates/js/jquery.countTo.js",
+        "src/main/webapp/static/templates/js/jquery.serialize-object.min.js",
+        "src/main/webapp/static/templates/js/Chart.js",
+        "src/main/webapp/static/templates/js/sprintf.js",
+        "src/main/webapp/static/templates/js/easy-pie-chart.js",
+        "src/main/webapp/static/custom/js/application.js"
+      ]
+    }
+  },
+  "cssmin": {
+    "src": {
+      "landing": ["src/main/webapp/static/templates/css/bootstrap.min.css",
+        "src/main/webapp/static/templates/css/freelancer.css",
+        "bower_components/components-font-awesome/css/font-awesome.min.css",
+        "src/main/webapp/static/templates/css/fonts.css",
+        "src/main/webapp/static/custom/css/application-landing.css"
+      ],
+      "admin": [
+        "src/main/webapp/static/templates/admin/styles/fonts.css",
+        "bower_components/components-font-awesome/css/font-awesome.min.css",
+        "bower_components/bootstrap/dist/css/bootstrap.min.css",
+        "src/main/webapp/static/templates/admin/styles/animate.css",
+        "src/main/webapp/static/templates/admin/styles/all.css",
+        "src/main/webapp/static/templates/admin/styles/main.css",
+        "src/main/webapp/static/templates/admin/styles/style-responsive.css",
+        "src/main/webapp/static/templates/admin/styles/pace.css",
+        "bower_components/typeahead.js-bootstrap3.less/typeaheadjs.css",
+        "src/main/webapp/static/templates/css/morris.css",
+        "bower_components/jvectormap/jquery-jvectormap.css",
+        "src/main/webapp/static/templates/css/datepicker3.css",
+        "src/main/webapp/static/templates/css/daterangepicker-bs3.css",
+        "bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css",
+        "src/main/webapp/static/templates/css/datatable.css",
+        "bower_components/bootstrap-duallistbox/dist/bootstrap-duallistbox.min.css",
+        "src/main/webapp/static/custom/css/application.css"
+      ],
+      "signin": ["src/main/webapp/static/custom/css/signin.css"]
+    }
+  },
+  "jshint": {
+    "files": ["src/main/webapp/static/custom/js/application-landing.js", "src/main/webapp/static/custom/js/application.js"]
+  },
+  "watch": {
+    "css": ["src/main/webapp/static/custom/css/application-landing.css", "src/main/webapp/static/templates/admin/styles/main.css", "src/main/webapp/static/custom/css/application.css"],
+    "js": [],
+    "misc": ["resources.json"]
+  }
+}

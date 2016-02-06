@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition extends="landingtemplate" name="access/login">
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="head" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="body" value="/WEB-INF/pages/access/login.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/pages/util/blank.jsp" />
+	</definition>
+	<definition extends="landingtemplate" name="access/email-verify">
+		<put-attribute name="title" value="Email Verification Request" />
+		<put-attribute name="head" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/access/email-verify.jsp" />
+	</definition>
+	<definition extends="landingtemplate" name="access/passwordreset">
+		<put-attribute name="title" value="Password Reset" />
+		<put-attribute name="head" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/pages/access/passwordreset.jsp" />
+	</definition>
+</tiles-definitions>

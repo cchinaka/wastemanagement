@@ -1,0 +1,167 @@
+/*
+.navbar-default {
+    background-color: #E0FFFF;
+    border-color: #E7E7E7;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #CAE6E6;
+    color: #555555;
+}
+
+*/
+body,html {
+	height: 100%;
+}
+
+body>div.container {
+	position: relative;
+	min-height: 100%;
+	margin-bottom: -30px;
+}
+
+body>div.container:after {
+	content: "";
+	display: block;
+}
+
+footer.site-footer,body>div.container:after {
+	font-size: 0.8em;
+	height: 30px;
+}
+
+div.footer {
+	font-size: 0.6em;
+}
+
+div.footer {
+	bottom: 0;
+	font-size: 0.7em;
+	font-style: italic;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.has-error .form-control-feedback {
+	color: salmon;
+}
+
+div.errorContainerDiv {
+	display: none;
+}
+
+dl.InfoDl dd {
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+dl.InfoDl dt {
+	color: #555;
+}
+
+.very-large {
+	font-size: 3.5em;
+}
+
+label.has-error,span.has-error {
+	color: salmon;
+	margin-left: 2px;
+	font-style: italic;
+	font-size: 10px;
+}
+
+.input-lgr,.btn-lgr {
+	height: 70px;
+	padding: 10px 16px;
+	font-size: 42px;
+	line-height: 1.33;
+	border-radius: 6px;
+}
+
+.navbar-fixed-top,.navbar-fixed-bottom {
+	padding-right: 10px;
+}
+
+.dash-detailets {
+	font-size: 0.9em;
+	margin: 10px 0 -5px;
+}
+
+.container {
+	width: 85%;
+}
+
+.bottom-info {
+	position: relative;
+	bottom: 1px;
+}
+
+.fa-10x {
+	font-size: 10em;
+}
+
+.fa-15x {
+	font-size: 15em;
+}
+
+.guest-payer {
+	display: none;
+}
+
+blockquote {
+	border-bottom: 1px solid #ddd;
+	border-left: 5px solid #dddddd;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 3px 15px;
+}
+
+blockquote footer,blockquote small,blockquote .small {
+	font-size: 0.5em;
+	font-style: italic;
+	font-weight: normal;
+}
+
+blockquote p {
+	margin: 0;
+}
+
+footer a {
+	color: inherit;
+}
+
+input[type="radio"],input[type="checkbox"] {
+	margin-top: 2px;
+}
+
+select.input-sm {
+	height: 30px;
+	line-height: 0;
+}
+
+.input-sm,.form-horizontal .form-group-sm .form-control {
+	border-radius: inherit;
+	font-size: 12px;
+	height: 30px;
+	line-height: 1.5;
+	padding: 4px;
+}
+
+label,.control-label,.help-block,.checkbox,.radio {
+	font-weight: bold;
+}
+
+.meter-dash {
+	font-size: 0.7em !important;
+	margin-bottom: -10px;
+	margin-top: 20px;
+	text-align: right;
+	width: 100%;
+}
+
+.form-horizontal .form-group-lg .control-label {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 15px;
+}

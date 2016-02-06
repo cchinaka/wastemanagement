@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition extends="maintemplate" name="receiver-dash">
+		<put-attribute name="title-class" value="fa fa-tachometer" />
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="body" value="/WEB-INF/pages/dash/dash-index.jsp" />
+	</definition>
+	<definition extends="landingtemplate" name="home-page"></definition>
+		
+</tiles-definitions>

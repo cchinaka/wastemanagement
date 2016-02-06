@@ -1,0 +1,14 @@
+{
+  "name": "bloody-jquery-plugins",
+  "homepage": "https://github.com/phiggins42/bloody-jquery-plugins",
+  "_release": "a33bf5aa79",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a33bf5aa794ca2295b271a43ef5adb4646085733"
+  },
+  "_source": "https://github.com/phiggins42/bloody-jquery-plugins.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/phiggins42/bloody-jquery-plugins.git",
+  "_direct": true
+}

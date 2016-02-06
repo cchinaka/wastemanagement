@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- Default Main Template -->
+	<definition name="maintemplate" template="/WEB-INF/pages/maintemplate/index.jsp">
+		<put-attribute name="title" value="Application" />
+		<put-attribute name="title-class" value="" />		
+		<put-attribute name="messages" value="/WEB-INF/pages/maintemplate/messages.jsp" />
+		<put-attribute name="head" value="/WEB-INF/pages/maintemplate/head.jsp"/>
+		<put-attribute name="menu" value="/WEB-INF/pages/maintemplate/menu.jsp" />
+		<put-attribute name="breadcrumb" value="/WEB-INF/pages/maintemplate/breadcrumb.jsp"/>
+		<put-attribute name="body" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="modal" value="/WEB-INF/pages/util/modal.jsp" />				
+		<put-attribute name="footer" value="/WEB-INF/pages/maintemplate/footer.jsp" />
+	</definition>
+
+
+	<definition extends="maintemplate" name="home">
+		<put-attribute name="body" value="/WEB-INF/pages/util/home.jsp" />
+	</definition>
+
+	<definition extends="maintemplate" name="error">
+		<put-attribute name="title" value="Error" />
+		<put-attribute name="body" value="/WEB-INF/pages/util/error.jsp" />
+	</definition>
+
+	<definition extends="externaltemplate" name="404">
+		<put-attribute name="title" value="Error" />
+		<put-attribute name="body" value="/WEB-INF/pages/util/404.jsp" />
+	</definition>
+
+	<definition name="externaltemplate" template="/WEB-INF/pages/externaltemplate/index.jsp">
+		<put-attribute name="title" value="Application" />
+		<put-attribute name="messages" value="/WEB-INF/pages/externaltemplate/messages.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="body" value="/WEB-INF/pages/util/blank.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/pages/maintemplate/footer.jsp" />
+	</definition>
+
+	<definition name="landingtemplate" template="/WEB-INF/pages/landing/index.jsp">
+		<put-attribute name="title" value="Waste Management" />
+		<put-attribute name="menu" value="/WEB-INF/pages/landing/menu.jsp" />
+		<put-attribute name="head" value="/WEB-INF/pages/landing/head.jsp" />
+		<put-attribute name="messages" value="/WEB-INF/pages/externaltemplate/messages.jsp" />
+		<put-attribute name="body" value="/WEB-INF/pages/landing/body.jsp" />
+		<put-attribute name="modal" value="/WEB-INF/pages/util/modal.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/pages/landing/footer.jsp" />
+	</definition>
+
+	<definition name="generallandingtemplate" template="/WEB-INF/pages/landing/general_index.jsp">
+		<put-attribute name="pagetitle" value="pagetitle" />
+		<put-attribute name="menu" value="/WEB-INF/pages/landing/menu.jsp" />
+		<put-attribute name="messages" value="/WEB-INF/pages/externaltemplate/messages.jsp" />
+		<put-attribute name="body" value="/WEB-INF/pages/landing/body.jsp" />
+		<put-attribute name="modal" value="/WEB-INF/pages/util/modal.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/pages/landing/footer.jsp" />
+	</definition>
+
+
+</tiles-definitions>

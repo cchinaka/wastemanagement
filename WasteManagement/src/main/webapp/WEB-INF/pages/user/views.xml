@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition extends="maintemplate" name="users">
+		<put-attribute name="title-class" value="fa fa-users" />
+		<put-attribute name="title" value="Users" />
+		<put-attribute name="body" value="/WEB-INF/pages/user/users.jsp" />
+	</definition>
+	<definition extends="landingtemplate" name="user/register">
+		<put-attribute name="title" value="User Registration" />
+		<put-attribute name="head" value="/WEB-INF/pages/user/register-head.jsp" />
+		<put-attribute name="body" value="/WEB-INF/pages/user/register.jsp" />
+	</definition>
+	<definition extends="landingtemplate" name="user/verify-response">
+		<put-attribute name="title" value="User Email Verification" />
+		<put-attribute name="head" value="/WEB-INF/pages/user/register-head.jsp" />
+		<put-attribute name="body" value="/WEB-INF/pages/user/verify-response.jsp" />
+	</definition>
+	<definition extends="maintemplate" name="edit-user">
+		<put-attribute name="title" value="Setup User" />
+		<put-attribute name="body" value="/WEB-INF/pages/user/edit-user.jsp" />
+	</definition>
+</tiles-definitions>
